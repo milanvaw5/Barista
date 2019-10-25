@@ -1,6 +1,12 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
-  --anotherColor: #bada55;
+  --backgroundColor: #F9D2CB;
+  --footerColor: #212121;
+  --titleColor: #212121;
+  --accentFooterColor: #564F4F;
+  --buttonBlue:#A3F4DC;
+  --textColor: #211F1F;
+  --secondBackgroundColor: #FFFFFF;
+  --lightGrew: #9C9C9C;
+  --lightBrown: #B7B7B7;
   --margin: 2rem;
 }

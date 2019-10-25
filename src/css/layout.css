@@ -1,0 +1,107 @@
+.container {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.h1-like {
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+}
+
+.h2-like {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.price__button__name {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.total {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.emptystate__content {
+  font-size: 1.8rem;
+  line-height: 4rem;
+  color: var(--lightBrown);
+  text-transform: uppercase;
+}
+
+.layout {
+  background-color: var(--secondBackgroundColor);
+}
+
+.prices {
+  background-color: var(--backgroundColor);
+}
+
+.header {
+  background-color: var(--backgroundColor);
+}
+
+.price {
+  border-radius: 0.6rem;
+  background-color: var(--secondBackgroundColor);
+  width: 19rem;
+  padding: 1.7rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.price__button {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.price__button__wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.price__button__plus {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 3.8rem;
+  right: 1.2rem;
+
+  /* Secondary */
+  background: var(--buttonBlue);
+  border-radius: 0.4rem;
+}
+
+.emptystate {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spaced {
+  padding: 3rem;
+}
+
+.prices__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.price {
+  margin: 1rem;
+}
