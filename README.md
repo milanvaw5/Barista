@@ -1,2 +1,2 @@
-Read me pls pls
+Read me
 
