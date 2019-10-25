@@ -36,6 +36,7 @@ const handleClick = e => {
     $empty.classList.add(`hide`); 
 
     const clickedItem = e.path[1].dataset.id;
+    console.log(clickedItem); //hier loopt het fout
 
     for(let i = 0; i< data.coffees.length;i ++){
         console.log("1.1");
